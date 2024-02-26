@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;800&display=swap%27%27');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
+@import url('https://fonts.cdnfonts.com/css/roobert?styles=49579,49575,49577,49581,49571,49573');
+
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 2rem;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    padding-top: 25px;
+    margin-left: 16px;
+    max-width: 70%;
+}
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 50%;
+        margin-left: 0;
+    }
+}
+p {
+    cursor: pointer;
+}
+
+button {
+    line-height: 1.23;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: max(.6770833333vw, 12px);
+    color: #b3b3b3;
+    font-family: 'Roobert', sans-serif;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+button:focus,
+button:hover {
+    color: #ffffff;
+}
+
+button:focus:after,
+button:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #ffffff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 1200ms;
+    transition-property: width, left;
+}
+@media screen and (max-width:850px) {
+     .navBar {
+        display: none;
+        overflow: hidden;
+    }
+}

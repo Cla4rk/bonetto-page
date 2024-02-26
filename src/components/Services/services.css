@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,800;0,900;1,100&display=swap');
+
+
+.servicesContainer {
+    height: 1080px;
+    display: flex;   
+}
+
+.descriptionSContainer {
+    position: relative;
+    text-align: center;
+}
+
+.descriptionSContainer h1 {
+    font-size: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 180%;
+    padding: 25px;
+    text-align: left;
+}
+@media screen and (max-width:850px) {
+    .descriptionSContainer h1 {
+        font-size: 26px;
+    }
+}
+.descriptionSContainer .serText {
+    pointer-events: all;
+    color: white;
+    transition: 1s;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.descriptionSContainer .serText:hover {
+    color: transparent;
+    transition: 1s;     
+    
+}
+hr {
+    height: 1px;
+    width: 900px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(255, 255, 255)), to(transparent), color-stop(50%, rgb(153, 153, 153)));
+}
+
+@media screen and (max-width:850px) {
+    .descriptionSContainer hr {
+    width: 300px;
+    }
+}
+
+.img {
+    position: absolute !important;
+    max-width: 30% !important;
+    object-fit: contain !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    padding-top: 0 !important;
+    margin-left: 0 !important;
+    transition: opacity 0.3s ease-out;
+    opacity: 0;
+}
+.descriptionSContainer h1:hover+.img {
+    opacity: 1;
+}

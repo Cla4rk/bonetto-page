@@ -1,0 +1,31 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
+
+
+.titleContainer .p2 {
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 300px;
+    position: absolute;
+    height: fit-content;
+    right: 0;
+    top: 0;
+    padding: 320px 0px 0px 400px;
+}
+
+.descriptionContainer {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionContainer p {
+    width: fit-content;
+    font-size: 30px;
+    font-family: 'Eudoxus Sans', sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: 300;
+    line-height: 180%;
+    color: #ffffff;
+    padding: 25px;
+}

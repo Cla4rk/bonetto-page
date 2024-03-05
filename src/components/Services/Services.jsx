@@ -1,9 +1,6 @@
 import './services.css'
 import React, { useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import Image1 from '../../assets/image1.jpg'
-import Image2 from '../../assets/BonettoLogo.png'
-import Image3 from '../../assets/BonettoLogoWhite.png'
 
 const Services = () => {
 

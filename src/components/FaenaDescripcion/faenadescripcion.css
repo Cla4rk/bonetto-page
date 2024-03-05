@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
+@import url(https://db.onlinewebfonts.com/c/d6ae884b0a2f1a5346717fc160db2d28?family=Roobert);
+.generalFaenaContainer {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+    pointer-events: none;
+}
+
+.titleContainer {
+    position: relative;
+    text-align: center;
+}
+
+.titleContainer .p1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #C7C7C780;
+}
+
+.titleContainer .p2 {
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 300px;
+    position: absolute;
+    height: fit-content;
+    right: 0;
+    top: 0;
+    padding: 320px 0px 0px 400px;
+}
+.descriptionContainerFaena {
+    display: flex;
+    gap: 50px;
+}
+
+.descriptionContainerFaena p {
+    padding-right: 150px;
+    font-size: 30px;
+    font-family: "Roobert";
+    font-style: normal;
+    text-align: LEFT;
+    font-weight: 500;
+}

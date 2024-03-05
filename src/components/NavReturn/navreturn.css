@@ -62,7 +62,6 @@ button:hover:after {
     width: 100%;
     left: 0%;
 }
-
 button:after {
     content: "";
     pointer-events: none;
@@ -75,4 +74,15 @@ button:after {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 1200ms;
     transition-property: width, left;
+}
+@media only screen and (max-width: 600px) {
+    .returnlogo {
+        max-width: 35% !important;
+        margin-left: 0 !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .back {
+        display: none;
+    }
 }

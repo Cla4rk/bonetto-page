@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,800;0,900;1,100&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,800;0,900;1,100&display=swap');
+@import url(https://db.onlinewebfonts.com/c/d6ae884b0a2f1a5346717fc160db2d28?family=Roobert);
 * {
     
     font-family: 'Poppins', sans-serif;
@@ -24,7 +25,7 @@ footer {
     text-decoration: none;
     font-size: 55px;
     color: #ffffff;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Roobert', sans-serif;
     line-height: 50px;
     font-weight: 300;
 }
@@ -74,7 +75,7 @@ h7{
 }
 
 .btnContact{
-    color: white;
+    color: grey;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     font-weight: 600;  

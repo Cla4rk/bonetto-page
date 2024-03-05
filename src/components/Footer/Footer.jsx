@@ -28,10 +28,10 @@ const Footer = () => {
                   
                 </div>
                 <div className='row4'>
+                  <h5><Link to="home" spy={true} smooth={true} offstet={50} duration={500}><button className='btnContact'>TOP 🡩</button></Link></h5>
                     <h5><Link to="aboutus" spy={true} smooth={true} offstet={50} duration={500}><button className='btnContact'>ABOUT US</button></Link></h5>
                     <h5><Link to="work" spy={true} smooth={true} offstet={50} duration={500}><button className='btnContact'>WORK</button></Link></h5>
-                    <h5><Link to="clients" spy={true} smooth={true} offstet={50} duration={500}><button className='btnContact'>TEAMS</button></Link></h5>
-                    <h5><Link to="contact" spy={true} smooth={true} offstet={50} duration={500}><button className='btnContact'>CONTACT</button></Link></h5>
+                    <h5><Link to="clients" spy={true} smooth={true} offstet={50} duration={500}><button className='btnContact'>EQUIPMENT</button></Link></h5>
                   </div>
             </div>
             <div className='lowFooter'>

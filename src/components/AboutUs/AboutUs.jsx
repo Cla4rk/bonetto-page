@@ -3,7 +3,7 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <section>
+    <section >
       <div id='aboutus' className='generalTextContainer'>
           <div className='titleContainer'>
               <p className='p1'> <a className='p1Left'>/01</a> ABOUT US</p>

@@ -12,9 +12,10 @@ html {
 section {
   padding: 80px 0;
   pointer-events: none
+  
 }
 .generalContainer {
-  max-width: 1600px;
+  max-width: 100%;
   padding: 0 80px;
   margin: auto;
   pointer-events: none;
@@ -62,6 +63,7 @@ section {
   padding: 0 80px;
   margin: auto;
   pointer-events: none;
+  
 }
 .App {
   max-width: 100%;

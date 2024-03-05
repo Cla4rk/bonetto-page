@@ -9,7 +9,7 @@ const Contact = () => {
               <p className='p1'> <a className='p1Left'>/03</a> EQUIPMENT</p>
           </div>
           <div className='descriptionContainer'>
-              <p>Metaverse is a new thing in the future, where you can enjoy the virtual world by feeling like it's really real, you can feel what you feel in this metaverse world, because this is really the madness of the metaverse of today, using only VR devices you can easily explore the metaverse world you want, turn your dreams into reality. Let's explore the madness of the metaverse by scrolling down</p>
+              <p>Nuestra empresa de iluminación y sonido se distingue por ofrecer un equipo de última generación que transforma cualquier evento en una experiencia sensorial única. Desde avanzados sistemas de iluminación LED y proyectores láser hasta potentes sistemas de sonido de alta definición, nuestro arsenal garantiza una calidad excepcional en cada producción. Complementado con accesorios y complementos de primera categoría, nuestro equipo, respaldado por expertos técnicos, asegura un rendimiento impecable y una atmósfera inigualable en cada ocasión. Con nosotros, cada evento se convierte en un espectáculo inolvidable, superando las expectativas y elevando el estándar de la industria del entretenimiento.</p>
           </div>
       </div>
     </section>

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,800;0,900;1,100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,800;0,900;1,100&display=swap');
+@import url(https://db.onlinewebfonts.com/c/d6ae884b0a2f1a5346717fc160db2d28?family=Roobert);
+* {
+    
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+footer {
+    color: rgb(252, 252, 252);
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+.sectionFooter{
+    padding: 20px 0;
+    padding-top: 80px;
+    background-color: black;
+}
+
+.generalContainer h2 {
+    width: 550px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 55px;
+    color: #ffffff;
+    font-family: 'Roobert', sans-serif;
+    line-height: 50px;
+    font-weight: 300;
+}
+.generalContainer hr{  
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 1px;
+    width: 600px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(250, 107, 12)), to(transparent), color-stop(50%, rgb(48, 139, 243)));
+}
+
+.generalContainer p {
+    width: 400px;
+    text-align: left;
+    font-size: 16px;
+    color: #74767c;
+    font-family: '', sans-serif;
+    line-height: 20px;
+    font-weight: 100;
+    letter-spacing: 0.1px;
+}
+.generalContainer .inc {
+    width: auto;
+    font-size: 14px;
+    color: #74767c;
+    font-family: '', sans-serif;
+    font-weight: 100;
+}
+.generalContainer .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: left;
+    gap: 240px;
+}
+.generalContainer .row2 {
+    letter-spacing: 1px;
+}
+h7{    
+    position: absolute;
+    margin-top: 12px;
+    color: #74767c;
+    font-size: 12px;
+    width: 140px;
+    line-height: 17px;
+}
+
+.btnContact{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;  
+    pointer-events: all;
+}
+
+.btnContact:focus:after,
+.btnContact:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.btnContact:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 0%;
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 1200ms;
+    transition-property: width, left;
+}
+
+.generalContainer .row3 {
+    letter-spacing: 1px;
+}
+.generalContainer .row4 {
+    letter-spacing: 1px;
+}
+.generalContainer .row4 h5{
+    margin-bottom: 24px;   
+    cursor: pointer;
+}
+
+/* Consulta de medios para pantallas más pequeñas */
+@media only screen and (max-width: 600px) {
+    .generalContainer h2 {
+        font-size: 30px;
+        line-height: 30px;
+        width: auto;
+    }
+    .generalContainer hr{
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .generalContainer .row{
+        gap: 80px;   
+    }
+    .generalContainer .row2 {
+        padding-bottom: 40px;
+        padding-right: 30px;
+    }
+    .generalContainer p{
+        width: auto;
+    }
+    .sectionFooter{
+        padding-top: 0;
+    }
+    .lowFooter .inc{
+        font-size: 11px;
+    }
+    .row p{
+        font-size: 14px;
+    }
+    .generalContainer .row4{
+        padding-top: 40px;
+    }
+}

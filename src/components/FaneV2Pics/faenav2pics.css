@@ -1,0 +1,47 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
+
+.picContainer {
+    position: relative !important;
+    width: 100% !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.faenaMainPic {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+.faena-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: white;
+    /* Asegúrate de que la sección tenga una altura establecida o suficiente contenido para determinar su altura */
+}
+
+.faena-image-container2 {
+    display: flex;
+    /* Establece un contenedor flex para alinear horizontalmente las imágenes */
+    justify-content: center;
+    /* Centra los elementos en el eje principal */
+    align-items: center;
+    /* Centra los elementos en el eje cruzado */
+    gap: 100px;
+    /* Añade un espacio entre las imágenes, ajusta a tu gusto */
+}
+
+.faena-image2 {
+    width: auto;
+    /* Mantén el ancho de la imagen auto para preservar la relación de aspecto */
+    height: 100%;
+    /* Ajusta la altura para que sea responsive */
+    max-height: 900px;
+    /* Ajusta el tamaño máximo de la altura según necesites */
+}

@@ -20,15 +20,16 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-img {
-    padding-top: 25px;
-    margin-left: 16px;
-    max-width: 70%;
-}
 @media only screen and (max-width: 600px) {
     img {
         max-width: 50%;
         margin-left: 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .navlogo{
+        max-width: 35%!important;
+        margin-left: 0!important;
     }
 }
 p {

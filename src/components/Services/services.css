@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,800;0,900;1,100&display=swap');
+@import url(https://db.onlinewebfonts.com/c/d6ae884b0a2f1a5346717fc160db2d28?family=Roobert);
 
 
 .servicesContainer {
@@ -13,9 +14,9 @@
 
 .descriptionSContainer h1 {
     font-size: 90px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roobert";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 2px;
     line-height: 180%;
     padding: 25px;

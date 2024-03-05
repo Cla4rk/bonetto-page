@@ -70,3 +70,46 @@ h1:hover {
     }
 
 }
+/* Consulta de medios para pantallas más pequeñas */
+@media only screen and (max-width: 600px) {
+    .generalContainer h2 {
+        font-size: 30px;
+        line-height: 30px;
+        width: auto;
+    }
+
+    .generalContainer hr {
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .generalContainer .row {
+        gap: 80px;
+    }
+
+    .generalContainer .row2 {
+        padding-bottom: 40px;
+        padding-right: 30px;
+    }
+
+    .generalContainer p {
+        width: auto;
+    }
+
+    .sectionFooter {
+        padding-top: 0;
+    }
+
+    .lowFooter .inc {
+        font-size: 11px;
+    }
+
+    .row p {
+        font-size: 14px;
+    }
+
+    .generalContainer .row4 {
+        padding-top: 40px;
+    }
+}
